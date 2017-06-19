@@ -17,6 +17,14 @@
   </properties>
 
   <distributionManagement>
+           <Repository>
+                  <id> nexus</id>
+                  <url> http://localhost:8081/Repository/maven-releases</url>
+         </Repository>
+         <snapshotRepository>
+                  <id> nexus </id>
+                  <url> http://localhost:8081/Repository/maven-snapshots</url>
+         </snapshotRepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
