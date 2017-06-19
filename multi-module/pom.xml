@@ -21,14 +21,14 @@
     <module>webapp</module>
   </modules>
   <distributionManagement>
-        <Repository>
+        <repository>
                   <id> nexus</id>
-                  <url> http://localhost:8081/Repository/maven-releases </url>
-         </Repository>
-         <snapshotRepository>
+                  <url> http://localhost:8081/repository/maven-releases </url>
+         </repository>
+         <snapshotrepository>
                   <id> nexus </id>
-                  <url> http://localhost:8081/Repository/maven-snapshots </url>
-         </snapshotRepository>
+                  <url> http://localhost:8081/repository/maven-snapshots </url>
+         </snapshotrepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
