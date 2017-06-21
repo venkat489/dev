@@ -10,14 +10,14 @@ project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 <distributionManagement>
-         <repository>
-                  <id> nexus</id>
-                  <url> http://localhost:8081/repository/maven-releases</url>
-         </repository>
-         <snapshotrepository>
-                  <id> nexus </id>
-                  <url> http://localhost:8081/repository/maven-snapshots</url>
-         </snapshotrepository>
+<repository>
+<id> nexus</id>
+<url> http://localhost:8081/repository/maven-releases</url>
+ </repository>
+   <snapshotrepository>
+   <id> nexus </id>
+   <url> http://localhost:8081/repository/maven-snapshots</url>
+   </snapshotrepository>
  </distributionManagement>
   <profiles>
   <profile>
