@@ -21,10 +21,10 @@
                   <id> nexus</id>
                   <url> http://localhost:8081/repository/maven-releases</url>
          </repository>
-         <snapshotrepository>
+         <snapshotRepository>
                   <id> nexus </id>
                   <url> http://localhost:8081/repository/maven-snapshots</url>
-         </snapshotrepository>
+         </snapshotRepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
